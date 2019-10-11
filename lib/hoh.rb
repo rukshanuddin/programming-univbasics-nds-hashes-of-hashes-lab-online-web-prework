@@ -38,13 +38,13 @@ def naming_system
        :label=>"Class",
        :sub_category => PORTION_2}}}
 
-                        {
-         :label => "Order",
-         :sub_category =>{
-           label: "Family",
-           sub_category: {
-             label: "Genus",
-             sub_category: PORTION_4
-         }
-} } } } }
+    #                    {
+    #     :label => "Order",
+    #     :sub_category =>{
+    #       label: "Family",
+    #       sub_category: {
+    #         label: "Genus",
+    #         sub_category: PORTION_4
+    #     }
+#} } } } }
 end
