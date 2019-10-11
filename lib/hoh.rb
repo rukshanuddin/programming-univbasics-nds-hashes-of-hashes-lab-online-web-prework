@@ -31,7 +31,7 @@
  }
 
 def naming_system
-  {PORTION_1: sub_category: {PORTION_2: sub_category}
+  {PORTION_1: {sub_category: {PORTION_2: sub_category}}}
   # Remember:
   #  Kingdom
   #  Phylum
