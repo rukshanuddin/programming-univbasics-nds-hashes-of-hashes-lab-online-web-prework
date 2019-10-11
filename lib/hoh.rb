@@ -38,7 +38,7 @@ def naming_system
                                       :sub_category => PORTION_2}
                                       }
                                       }
-                                      
+                                      }
   # Remember:
   #  Kingdom
   #  Phylum
