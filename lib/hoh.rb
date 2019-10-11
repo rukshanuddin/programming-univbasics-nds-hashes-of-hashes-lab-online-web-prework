@@ -31,12 +31,8 @@
  }
 
 def naming_system
-  {:label=>"Kingdom",
-   :sub_category=> {
-     :label=>"Phylum",
-     :sub_category=> {
-       :label=>"Class",
-       :sub_category => PORTION_2}}}
+
+PORTION_1[:sub_category] => PORTION_2}}}
 
     #                    {
     #     :label => "Order",
