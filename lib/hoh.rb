@@ -37,8 +37,7 @@ def naming_system
      :label=>"Phylum",
      :sub_category=> {
        :label=>"Class",
-       :sub_category => {
-         :label => "Order",
+       :sub_category => PORTION_2,
          :sub_category =>{
            label: "Family",
            sub_category: {
