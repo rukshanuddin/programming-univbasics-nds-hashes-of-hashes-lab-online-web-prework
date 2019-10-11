@@ -38,7 +38,7 @@ def naming_system
      :sub_category=> {
        :label=>"Class",
        :sub_category => {
-         PORTION_2,
+         :label => "Order",
          :sub_category =>{
            label: "Family",
            sub_category: {
