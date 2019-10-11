@@ -31,6 +31,20 @@
  }
 
 def naming_system
-PORTION_1[:sub_category][:sub_category][:sub_category] = PORTION_2
+  {:label=>"Kingdom",
+   :sub_category=> {
+     :label=>"Phylum",
+     :sub_category=> {
+       :label=>"Class",
+       :sub_category => PORTION_2}}}
 
+                        {
+         :label => "Order",
+         :sub_category =>{
+           label: "Family",
+           sub_category: {
+             label: "Genus",
+             sub_category: PORTION_4
+         }
+} } } } }
 end
