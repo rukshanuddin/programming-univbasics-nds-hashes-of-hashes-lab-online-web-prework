@@ -34,7 +34,8 @@ def naming_system
 
   {:label=>"Kingdom",
    :sub_category=> {:label=>"Phylum",
-                    :sub_category=>{:label=>"Class", :sub_category => {PORTION_2 => {:sub_category => PORTION_3}}}}}
+                    :sub_category=> {:label=>"Class",
+                                      :sub_category => {PORTION_2[sub_category] => PORTION_3}}}}}
   # Remember:
   #  Kingdom
   #  Phylum
